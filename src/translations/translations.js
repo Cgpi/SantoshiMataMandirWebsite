@@ -25,7 +25,7 @@ export const translations = {
 
     // Hero
     heroBlessing: '॥ Jai Santoshi Mata ॥',
-    heroTitle: 'Shri Santoshi Mata Mandir',
+    heroTitle: 'Shri Santoshi Mata Mandir Charitable Trust',
     heroSubtitle: 'A Sacred Place of Faith, Devotion and Blessings',
     heroLocation: 'Katraj, Pune, Maharashtra',
     heroExplore: 'Explore the Temple',

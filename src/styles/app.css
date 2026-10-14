@@ -745,6 +745,198 @@
   padding-left: var(--space-md);
 }
 
+/* ==========================================
+   DARSHAN SECTION — RESPONSIVE FIX
+   Keeps existing colors and component styles
+   ========================================== */
+
+/* Desktop and laptop */
+.darshan-section {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.darshan-section .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.darshan-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 56px);
+  width: 100%;
+}
+
+.darshan-content > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.darshan-image-card-wrapper {
+  width: 100%;
+  min-width: 0;
+}
+
+.darshan-image-card {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.darshan-image-card img {
+  display: block;
+  width: 100%;
+  height: clamp(300px, 38vw, 500px);
+  object-fit: cover;
+  object-position: center;
+}
+
+.darshan-text {
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.darshan-message {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+  line-height: 1.8;
+}
+
+.darshan-text .btn {
+  max-width: 100%;
+  white-space: normal;
+}
+
+/* Smaller desktop and tablet landscape */
+@media (max-width: 1024px) {
+  .darshan-content {
+    gap: 28px;
+  }
+
+  .darshan-image-card img {
+    height: 380px;
+  }
+
+  .darshan-message {
+    font-size: 1.1rem;
+  }
+}
+
+/* Tablet portrait */
+@media (max-width: 768px) {
+  .darshan-content {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+
+  .darshan-image-card-wrapper {
+    width: 100%;
+  }
+
+  .darshan-image-card {
+    max-width: 620px;
+    margin-inline: auto;
+  }
+
+  .darshan-image-card img {
+    width: 100%;
+    height: clamp(280px, 55vw, 380px);
+  }
+
+  .darshan-text {
+    align-items: center;
+    text-align: center;
+  }
+
+  .darshan-message {
+    border-left: none;
+    border-top: 4px solid var(--golden);
+    padding-left: 0;
+    padding-top: var(--space-sm);
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .darshan-section {
+    padding: var(--space-xl) 0;
+  }
+
+  .darshan-section .container {
+    padding-inline: var(--space-sm);
+  }
+
+  .darshan-content {
+    gap: 22px;
+  }
+
+  .darshan-image-card {
+    border-width: 4px;
+    border-radius: var(--radius-md);
+  }
+
+  .darshan-image-card img {
+    height: 280px;
+    object-fit: cover;
+  }
+
+  .darshan-text {
+    gap: var(--space-md);
+    align-items: stretch;
+  }
+
+  .darshan-message {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .darshan-text .btn {
+    align-self: center;
+    justify-content: center;
+    padding: 0.7rem 1rem;
+    font-size: 0.88rem;
+    gap: 8px;
+  }
+}
+
+/* Very small mobile */
+@media (max-width: 360px) {
+  .darshan-image-card img {
+    height: 230px;
+  }
+
+  .darshan-message {
+    font-size: 0.95rem;
+  }
+
+  .darshan-text .btn {
+    padding: 0.65rem 0.75rem;
+    font-size: 0.82rem;
+    gap: 6px;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .darshan-image-card img,
+  .darshan-image-glow {
+    animation: none !important;
+    transition: none !important;
+  }
+}
 /* ---------- Festivals Section ---------- */
 .festivals-section {
   background: var(--cream);
