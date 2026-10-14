@@ -3,7 +3,7 @@ import Temple from "../assets/Temple.png";
 import Darshan from "../assets/Darshan.png";
 import Decoration from "../assets/Decoration.png";
 import Festival from "../assets/Festival.png";
-import Interior from "../assets/Interior.png";
+import Interior from "../assets/interior.png";
 import Aarti from "../assets/Aarti.png";
 
 export const templeImages = {
