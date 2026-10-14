@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#8B101C"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#E8BE66" stroke-width="2"/>
+  <text x="50" y="68" font-size="48" text-anchor="middle" fill="#E8BE66" font-family="serif">ॐ</text>
+</svg>
