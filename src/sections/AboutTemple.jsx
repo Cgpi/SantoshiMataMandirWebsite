@@ -767,7 +767,7 @@ export default function AboutTemple() {
         <div className="st-story-grid">
           <div className="st-story-copy">
             <p className="st-intro">
-              {t.aboutPara1}
+              {t.aboutPara0}
             </p>
 
             <div className="st-timeline" ref={timelineRef}>

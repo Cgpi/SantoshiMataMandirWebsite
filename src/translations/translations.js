@@ -34,6 +34,8 @@ export const translations = {
     // About
     aboutTitle: 'About the Temple',
     aboutSubtitle: 'A place of devotion, peace and community',
+    aboutPara0:
+      'Shraddha is the foundation of devotion to Shri Santoshi Mata.It inspires us to pray with a pure heart and a peaceful mind.Through faith, devotees find hope, courage, and inner strength.Every prayer expresses gratitude and trust in Mata’s divine blessings.May श्रद्धा always guide us toward positivity, kindness, and peace.',
     aboutPara1:
       'Shri Santoshi Mata Mandir, located in Katraj, Pune, is a sacred place of worship devoted to Shri Santoshi Mata, the beloved goddess of contentment, patience and forgiveness. Devotees from Pune and across Maharashtra visit the temple to offer prayers and seek the blessings of Mata.',
     aboutPara2:
@@ -183,6 +185,8 @@ export const translations = {
     // About
     aboutTitle: 'मंदिराबद्दल',
     aboutSubtitle: 'भक्ती, शांती आणि समुदायाचे ठिकाण',
+    aboutPara0:
+      'श्री संतोषी माता यांच्या चरणी श्रद्धा ही भक्तीचा खरा आधार आहे. शुद्ध मनाने केलेली प्रार्थना आपल्याला शांती आणि सकारात्मकता देते. श्रद्धेमुळे मनात आशा, धैर्य आणि आत्मविश्वास निर्माण होतो. मातेच्या आशीर्वादाने जीवनात सुख, समाधान आणि आनंद लाभो. आपली श्रद्धा सदैव आपल्याला सत्य, प्रेम आणि सद्भावनेच्या मार्गावर घेऊन जावो.',
     aboutPara1:
       'पुणे येथील कात्रजमधील श्री संतोषी माता मंदिर हे संतोष, सहनशीलता आणि क्षमा यांची देवी श्री संतोषी माता यांच्या उपासनेसाठी एक पवित्र स्थान आहे. पुणे आणि संपूर्ण महाराष्ट्रातील भाविक मंदिरात दर्शनासाठी येतात आणि माताजींचे आशीर्वाद घेतात.',
     aboutPara2:
@@ -332,6 +336,8 @@ export const translations = {
     // About
     aboutTitle: 'मंदिर के बारे में',
     aboutSubtitle: 'भक्ति, शांति और सामुदायिक एकता का स्थान',
+    aboutPara0:
+      'श्री संतोषी माता के चरणों में श्रद्धा ही सच्ची भक्ति का आधार है। शुद्ध मन से की गई प्रार्थना हमें शांति और सकारात्मकता प्रदान करती है। श्रद्धा से मन में आशा, साहस और आत्मविश्वास का संचार होता है। माता के आशीर्वाद से जीवन में सुख, संतोष और आनंद बना रहे। हमारी श्रद्धा हमें सदैव सत्य, प्रेम और सद्भावना के मार्ग पर चलने की प्रेरणा दे',
     aboutPara1:
       'पुणे के कात्रज में स्थित श्री संतोषी माता मंदिर, संतोष, धैर्य और क्षमा की देवी श्री संतोषी माता की उपासना का एक पवित्र स्थान है। पुणे और पूरे महाराष्ट्र से श्रद्धालु यहाँ पूजा करने और माताजी का आशीर्वाद प्राप्त करने आते हैं।',
     aboutPara2:
